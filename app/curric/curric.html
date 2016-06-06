@@ -1,0 +1,24 @@
+<div class="row" ng-controller="CurricCtrl">
+	<div class="col-md-5">
+		<h4>Add Schedule</h4>
+		<form ng-submit="addCurriculum()">
+  <div class="form-group">
+    <label>Time</label>
+    <input type="time" class="form-control" ng-model="time" placeholder="Time" focus>
+  </div>
+  <div class="form-group">
+    <label>Instructor</label>
+    <input type="text" class="form-control" ng-model="instructor" placeholder="Instructor">
+  </div>
+  <div class="form-group">
+    <label>Topic</label>
+    <input type="text" class="form-control" ng-model="topic" placeholder="Topic">
+  </div>
+
+  <button type="submit" class="btn btn-blue">Submit</button>
+</form>
+	</div>
+	<div class="col-md-7">
+
+	</div>
+</div>
